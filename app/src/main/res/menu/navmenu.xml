@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:title = "@string/home"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="always"
+        android:icon="@drawable/homenav"
+        app:cnb_iconColor="@color/white"
+
+        />
+    <item
+        android:id="@+id/issues"
+        android:title = "@string/issues"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="always"
+        android:icon="@drawable/problemnav"
+        app:cnb_iconColor="@color/white"
+
+        />
+    <item
+        android:id="@+id/solutions"
+        android:title = "@string/solutions"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="always"
+        android:icon="@drawable/solutionnav"
+        app:cnb_iconColor="@color/white"
+
+        />
+    <item
+        android:id="@+id/settings"
+        android:title = "@string/settings"
+        android:icon="@drawable/settingnav"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="always"
+        app:cnb_iconColor="@color/white"
+
+        />
+
+</menu>
